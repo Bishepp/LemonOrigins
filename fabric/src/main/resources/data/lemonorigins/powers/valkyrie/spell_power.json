@@ -1,0 +1,9 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "spell_power:healing",
+		"operation": "addition",
+		"value": 1
+	},
+	"hidden": true
+}

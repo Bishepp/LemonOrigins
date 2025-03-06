@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "lemonorigins:high_elf/arcanist/spell_power",
+        "lemonorigins:high_elf/arcanist/gear_spawn"
+    ],
+    "icon": {
+        "item": "wizards:arcane_spell_book"
+    },
+    "impact": 2
+}

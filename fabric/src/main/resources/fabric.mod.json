@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "lemonorigins",
+  "version": "${version}",
+
+  "name": "LemonOrigins",
+  "description": "LemonOrigins is an addon for Origins with mythological and medieval themes, focused on mod integration and simplicity.",
+  "authors": [
+    "Bishepp",
+    "Adonis"
+  ],
+
+  "license": "GPLv3 License",
+  "icon": "assets/lemonorigins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.lemoncraft.lemonorigins.LemonOrigins"
+    ],
+    "client": [
+      "ru.lemoncraft.lemonorigins.client.LemonOriginsClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "origins": ">=1.7.1",
+    "pehkui": ">=3.0",
+    "spell_engine": "*"
+  },
+  "mixins": [
+    "lemonorigins.mixins.json",
+    "lemonorigins.fabric.mixins.json"
+  ],
+  "suggests": {
+    "another-mod": "*"
+  },
+  "breaks": {
+    "icarus": "<=2.5.0"
+  }
+}
